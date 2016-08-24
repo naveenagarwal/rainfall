@@ -1,1 +1,1 @@
-![alt tag](https://github.com/naveenagarwal/rainfall/sample.gif)
+![alt tag](https://github.com/naveenagarwal/rainfall/blob/master/sample.gif)
