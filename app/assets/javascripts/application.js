@@ -11,12 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
+// require jquery_ujs
+// require turbolinks
 // require highcharts
 // to get the new features in 2.3.0:
 // require highcharts/highcharts-more
-//= require_tree .
+// require_tree .
 
 globalData = null;
 counter = 0;
@@ -48,7 +48,6 @@ plotChartMap = function(d){
                   that.setTitle({text: 'India\'s Railfall Stats - ' + year});
                   that.series[0].setData(vals, true);
 
-                  console.log(counter);
                 }, 1000);
             }
           }
