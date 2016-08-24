@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  year: 1.5
+  jan: 1.5
+  feb: 1.5
+  mar: 1.5
+  apr: 1.5
+  may: 1.5
+  jun: 1.5
+  jul: 1.5
+  aug: 1.5
+  sep: 1.5
+  oct: 1.5
+  nov: 1.5
+  dec: 1.5
+  annual: 1.5
+  jan_feb: 1.5
+  mar_may: 1.5
+  jun_sep: 1.5
+  oct_dec: 1.5
+
+two:
+  name: MyString
+  year: 1.5
+  jan: 1.5
+  feb: 1.5
+  mar: 1.5
+  apr: 1.5
+  may: 1.5
+  jun: 1.5
+  jul: 1.5
+  aug: 1.5
+  sep: 1.5
+  oct: 1.5
+  nov: 1.5
+  dec: 1.5
+  annual: 1.5
+  jan_feb: 1.5
+  mar_may: 1.5
+  jun_sep: 1.5
+  oct_dec: 1.5

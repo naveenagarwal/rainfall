@@ -1,0 +1,63 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @rain_datum.name
+p
+  strong Year:
+  = @rain_datum.year
+p
+  strong Jan:
+  = @rain_datum.jan
+p
+  strong Feb:
+  = @rain_datum.feb
+p
+  strong Mar:
+  = @rain_datum.mar
+p
+  strong Apr:
+  = @rain_datum.apr
+p
+  strong May:
+  = @rain_datum.may
+p
+  strong Jun:
+  = @rain_datum.jun
+p
+  strong Jul:
+  = @rain_datum.jul
+p
+  strong Aug:
+  = @rain_datum.aug
+p
+  strong Sep:
+  = @rain_datum.sep
+p
+  strong Oct:
+  = @rain_datum.oct
+p
+  strong Nov:
+  = @rain_datum.nov
+p
+  strong Dec:
+  = @rain_datum.dec
+p
+  strong Annual:
+  = @rain_datum.annual
+p
+  strong Jan feb:
+  = @rain_datum.jan_feb
+p
+  strong Mar may:
+  = @rain_datum.mar_may
+p
+  strong Jun sep:
+  = @rain_datum.jun_sep
+p
+  strong Oct dec:
+  = @rain_datum.oct_dec
+
+= link_to 'Edit', edit_rain_datum_path(@rain_datum)
+'|
+= link_to 'Back', rain_data_path

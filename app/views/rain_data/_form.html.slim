@@ -1,0 +1,66 @@
+= form_for @rain_datum do |f|
+  - if @rain_datum.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@rain_datum.errors.count, "error")} prohibited this rain_datum from being saved:"
+      ul
+        - @rain_datum.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :year
+    = f.text_field :year
+  .field
+    = f.label :jan
+    = f.text_field :jan
+  .field
+    = f.label :feb
+    = f.text_field :feb
+  .field
+    = f.label :mar
+    = f.text_field :mar
+  .field
+    = f.label :apr
+    = f.text_field :apr
+  .field
+    = f.label :may
+    = f.text_field :may
+  .field
+    = f.label :jun
+    = f.text_field :jun
+  .field
+    = f.label :jul
+    = f.text_field :jul
+  .field
+    = f.label :aug
+    = f.text_field :aug
+  .field
+    = f.label :sep
+    = f.text_field :sep
+  .field
+    = f.label :oct
+    = f.text_field :oct
+  .field
+    = f.label :nov
+    = f.text_field :nov
+  .field
+    = f.label :dec
+    = f.text_field :dec
+  .field
+    = f.label :annual
+    = f.text_field :annual
+  .field
+    = f.label :jan_feb
+    = f.text_field :jan_feb
+  .field
+    = f.label :mar_may
+    = f.text_field :mar_may
+  .field
+    = f.label :jun_sep
+    = f.text_field :jun_sep
+  .field
+    = f.label :oct_dec
+    = f.text_field :oct_dec
+  .actions = f.submit
